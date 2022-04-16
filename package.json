@@ -23,5 +23,8 @@
   "homepage": "https://github.com/brandonchadlange/blog-fp#readme",
   "devDependencies": {
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@formify-tech/document-builder": "^1.0.4"
   }
 }
