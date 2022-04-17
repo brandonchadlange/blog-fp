@@ -1,6 +1,9 @@
 import { Container, Text } from "@formify-tech/document-builder";
 
-export function BuildPostsPage() {
+export async function BuildPostsPage({ postsDb }: any) {
+  const posts = await postsDb.find();
+  console.log(posts);
+
   return Container({
     children: [
       Text({
