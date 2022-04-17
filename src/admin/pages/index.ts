@@ -1,4 +1,5 @@
 import { BuildOverviewPage } from "./overview";
+import { BuildPostPage } from "./post";
 import { BuildPostsPage } from "./posts";
 
 const pages = {
@@ -14,7 +15,7 @@ const pages = {
     children: [
       {
         path: "/:slug",
-        page: BuildPostsPage,
+        page: BuildPostPage,
       },
     ],
   },
