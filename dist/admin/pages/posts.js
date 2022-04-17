@@ -46,7 +46,6 @@ function buildTableMockup() {
                 <td>
                     <a href="/plugins/blog-builder/posts/top-10-snails-2022">Top 10 Snails 2022</a>
                 </td>
-                <td>Top 10 Snails 2022</td>
                 <td>top-10-snails-2022</td>
                 <td>Jane Doe</td>
                 <td>Published</td>
