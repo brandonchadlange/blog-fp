@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const overview_1 = require("./overview");
+const post_1 = require("./post");
 const posts_1 = require("./posts");
 const pages = {
     overview: {
@@ -15,7 +16,7 @@ const pages = {
         children: [
             {
                 path: "/:slug",
-                page: posts_1.BuildPostsPage,
+                page: post_1.BuildPostPage,
             },
         ],
     },

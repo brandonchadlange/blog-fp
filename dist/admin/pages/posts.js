@@ -27,18 +27,25 @@ function buildTableMockup() {
         </thead>
         <tbody>
             <tr>
-                <td>How to eat a cat</td>
+                <td>
+                    <a href="/plugins/blog-builder/posts/how-to-eat-a-cat"">How to eat a cat</a>
+                </td>
                 <td>how-to-eat-a-cat</td>
                 <td>Ching Chong Woo</td>
                 <td>Draft</td>
             </tr>
             <tr>
-                <td>More doors or wheels?</td>
+                <td>
+                    <a href="/plugins/blog-builder/posts/more-doors-or-wheels">More doors or wheels?</a>
+                </td>
                 <td>more-doors-or-wheels</td>
                 <td>John Doe</td>
                 <td>Published</td>
             </tr>
             <tr>
+                <td>
+                    <a href="/plugins/blog-builder/posts/top-10-snails-2022">Top 10 Snails 2022</a>
+                </td>
                 <td>Top 10 Snails 2022</td>
                 <td>top-10-snails-2022</td>
                 <td>Jane Doe</td>
