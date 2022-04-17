@@ -1,10 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const overview_1 = require("./overview");
+const posts_1 = require("./posts");
 const pages = {
     overview: {
         path: "",
         page: overview_1.BuildOverviewPage,
+    },
+    posts: {
+        path: "/posts",
+        page: posts_1.BuildPostsPage,
     },
 };
 exports.default = pages;
